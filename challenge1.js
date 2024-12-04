@@ -3,7 +3,7 @@ let marks = parseInt(prompt("What are your marks?", 0));
 
 function userInput(marks) {
   let x = marks;
-  if (x > 79) {
+  if (x >= 79) {
     console.log(`Your grade is A`);
   } else if (x >= 60) {
     console.log(`Your grade is B`);
@@ -16,4 +16,4 @@ function userInput(marks) {
   }
 }
 
-userInput();
+userInput(marks);
